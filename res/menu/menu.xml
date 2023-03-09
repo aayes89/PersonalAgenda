@@ -1,0 +1,34 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cu.slam.telynet.MainActivity" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<item
+        android:id="@+id/action_phonecall"
+        android:orderInCategory="100"
+        android:title="@string/menu_phonecall"
+        />
+<item        android:id="@+id/action_filter_visited"
+        android:orderInCategory="100"
+        android:title="@string/menu_fvisited"
+        />
+<item     
+       android:id="@+id/action_filter_not_visited"
+        android:orderInCategory="100"
+        android:title="@string/menu_fnvisited"
+        />
+<item     
+       android:id="@+id/action_order_code"
+        android:orderInCategory="100"
+        android:title="@string/menu_ocode"
+        />
+<item     
+       android:id="@+id/action_order_name"
+        android:orderInCategory="100"
+        android:title="@string/menu_oname"
+        />
+<item     
+       android:id="@+id/action_reset"
+        android:orderInCategory="100"
+        android:title="@string/menu_reset"
+        />
+</menu>
